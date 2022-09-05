@@ -1,11 +1,16 @@
 <template>
-  <div class="home"></div>
+  <div class="home">
+    <TopVue> </TopVue>
+  </div>
 </template>
 <!-- javaScript: -->
 <script>
+import TopVue from './Top.vue'
 export default {
   name: 'Home',
-  components: {},
+  components: {
+    TopVue,
+  },
   data() {
     return {}
   },
