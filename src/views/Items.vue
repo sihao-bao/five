@@ -33,10 +33,10 @@ export default {
 .box{
   width: 3.26rem;
   height: 0.98rem;
-  background: green;
   border-radius: 0.2rem;
   margin: 0 auto 20px;
   display: flex;
+  background: #fff;
 }
 .img{
   width: 0.84rem;
