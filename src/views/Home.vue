@@ -1,23 +1,24 @@
 <template>
   <div class="home">
     <Hea></Hea>
+    <TopVue> </TopVue>
+    <Footer></Footer>
   </div>
 </template>
 <!-- javaScript: -->
 <script>
+import TopVue from './Top.vue'
+import Footer from '../views/Footer.vue'
 import Hea from "./Hea.vue";
 export default {
   name: 'Home',
-  components: { Hea },
-  data() {
-    return {}
+  components: {
+    TopVue,
+    Hea,
+    Footer,
   },
-  computed: {},
-  watch: {},
-  async created() {},
-  mounted() {},
-  methods: {},
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>
