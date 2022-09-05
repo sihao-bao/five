@@ -1,5 +1,6 @@
 <template>
-  <div class="home"></div>
+  <div class="home">
+  </div>
 </template>
 <!-- javaScript: -->
 <script>
@@ -17,4 +18,6 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+
+</style>
