@@ -32,5 +32,8 @@ html{
 	font-family: 'HarmonyOS Sans SC';
 	font-weight: 500;
 }
+body{
+	background: rgba(247, 247, 250, 1);
+}
 // https://js.design/f/0mmPE8?p=zXY3zFyNrm&mode=programmer
 </style>

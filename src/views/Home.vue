@@ -1,11 +1,16 @@
 <template>
-  <div class="home"></div>
+  <div class="home">
+    <Footer/>
+  </div>
 </template>
 <!-- javaScript: -->
 <script>
+import Footer from '../views/Footer.vue'
 export default {
   name: 'Home',
-  components: {},
+  components: {
+    Footer,
+  },
   data() {
     return {}
   },
@@ -17,4 +22,5 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>
