@@ -1,11 +1,14 @@
 <template>
-  <div class="home"></div>
+  <div class="home">
+    <Hea></Hea>
+  </div>
 </template>
 <!-- javaScript: -->
 <script>
+import Hea from "./Hea.vue";
 export default {
   name: 'Home',
-  components: {},
+  components: { Hea },
   data() {
     return {}
   },
