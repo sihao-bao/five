@@ -1,11 +1,14 @@
 <template>
-  <div class="home"></div>
+  <div class="home">
+    <Items/>
+  </div>
 </template>
 <!-- javaScript: -->
 <script>
+import Items from "@/views/Items.vue"
 export default {
   name: 'Home',
-  components: {},
+  components: {Items},
   data() {
     return {}
   },
